@@ -32,9 +32,9 @@ Zixiang Zhao, Jiangshe Zhang, Haowen Bai, Yicheng Wang, Yukun Cui, Lilun Deng, K
 Image fusion is a significant problem in many fields including digital photography, computational imaging and remote sensing, to name but a few. Recently, deep learning has emerged as an important tool for image fusion. This paper presents CSCFuse, which contains three deep convolutional sparse coding (CSC) networks for three kinds of image fusion tasks (i.e., infrared and visible image fusion, multi-exposure image fusion, and multi-spectral image fusion). The CSC model and the iterative shrinkage and thresholding algorithm are generalized into dictionary convolution units. As a result, all hyper-parameters are learned from data. Our extensive experiments and comprehensive comparisons reveal the superiority of CSCFuse with regard to quantitative evaluation and visual inspection.
 
 ## Software
-#### CSC-IVF: [Folder CSC-IVF](CSC-IVF/README.md)
-#### CSC-MEF: [Folder CSC-MEF](CSC-MEF/README.md)
-#### CSC-MMF: [Folder CSC-MMF](CSC-MMF/README.md)
+#### Infrared-Visible Image Fusion: [Folder CSC-IVF](CSC-IVF/README.md)
+#### Multi-Exposure Image Fusion: [Folder CSC-MEF](CSC-MEF/README.md)
+####  Multi-Spectral Image Fusio: [Folder CSC-MSF](CSC-MSF/README.md)
 
 ## CSC Unfolding
 The convolutional sparse coding (CSC) optimizes the following problem,
@@ -58,6 +58,6 @@ We replace some operations with deep neural networks' elements and rewritten the
 The above equation is called as the dictnary convolutional unit (DCU).
 
 ## Network Structure
-In our paper, DCUs are regarded as the hidden layers of deep networks. Then, we design three kinds of networks for infrared and visible image fusion, multi-epxosure image fusion, and multi-modal image fusion, as shown in the following figure.
+In our paper, DCUs are regarded as the hidden layers of deep networks. Then, we design three kinds of networks for infrared-visible image fusion, multi-epxosure image fusion, and multi-spectral image fusion, as shown in the following figure.
 
 ![avatar](image/Net_v3.png)
